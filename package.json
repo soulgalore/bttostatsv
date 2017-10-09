@@ -1,0 +1,29 @@
+{
+  "name": "bttostatsv",
+  "version": "0.0.1",
+  "bin": "./bin/index.js",
+  "description": "Send Browsertime metrics to statsv",
+  "keywords": ["browsertime", "performance", "statsv"],
+  "homepage": "https://github.com/soulgalore/bttostatsv",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:soulgalore/bttostatsv.git"
+  },
+  "files": ["bin", "lib"],
+  "scripts": {
+    "test": "eslint ."
+  },
+  "engines": {
+    "node": ">=6.11.4"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-wikimedia": "^0.3.0"
+  },
+  "main": "./bin/index.js",
+  "dependencies": {
+    "request": "2.83.0",
+    "lodash.get": "4.4.2"
+  }
+}
