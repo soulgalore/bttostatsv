@@ -12,12 +12,13 @@
   },
   "files": ["bin", "lib"],
   "scripts": {
-    "test": "eslint ."
+    "test": "eslint . && ava"
   },
   "engines": {
     "node": ">=6.11.4"
   },
   "devDependencies": {
+    "ava": "0.22.0",
     "eslint": "^3.19.0",
     "eslint-config-wikimedia": "^0.3.0"
   },
