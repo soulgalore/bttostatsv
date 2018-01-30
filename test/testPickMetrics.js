@@ -32,18 +32,18 @@ test( 'Pick right metrics from Browsertime JSON', t => {
 		'this.is.my.key.visualMetrics.PerceptualSpeedIndex.min=862ms',
 		'this.is.my.key.visualMetrics.PerceptualSpeedIndex.median=902ms',
 		'this.is.my.key.visualMetrics.PerceptualSpeedIndex.mdev=25ms',
-		'this.is.my.key.cpu.category.rendering.min=1222ms',
-		'this.is.my.key.cpu.category.rendering.median=1324ms',
-		'this.is.my.key.cpu.category.rendering.mdev=26ms',
-		'this.is.my.key.cpu.category.scripting.min=330ms',
-		'this.is.my.key.cpu.category.scripting.median=353ms',
-		'this.is.my.key.cpu.category.scripting.mdev=21ms',
-		'this.is.my.key.cpu.category.loading.min=78ms',
-		'this.is.my.key.cpu.category.loading.median=91ms',
-		'this.is.my.key.cpu.category.loading.mdev=9ms',
-		'this.is.my.key.cpu.category.painting.min=31ms',
-		'this.is.my.key.cpu.category.painting.median=37ms',
-		'this.is.my.key.cpu.category.painting.mdev=2ms'
+		'this.is.my.key.cpu.categories.Layout.min=1222ms',
+		'this.is.my.key.cpu.categories.Layout.median=1324ms',
+		'this.is.my.key.cpu.categories.Layout.mdev=26ms',
+		'this.is.my.key.cpu.categories.Scripting.min=330ms',
+		'this.is.my.key.cpu.categories.Scripting.median=353ms',
+		'this.is.my.key.cpu.categories.Scripting.mdev=21ms',
+		'this.is.my.key.cpu.categories.Loading.min=78ms',
+		'this.is.my.key.cpu.categories.Loading.median=91ms',
+		'this.is.my.key.cpu.categories.Loading.mdev=9ms',
+		'this.is.my.key.cpu.categories.Painting.min=31ms',
+		'this.is.my.key.cpu.categories.Painting.median=37ms',
+		'this.is.my.key.cpu.categories.Painting.mdev=2ms'
 	];
 	t.deepEqual( metrics, facit );
 } );
